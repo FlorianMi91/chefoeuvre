@@ -24,7 +24,5 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test with pytest
         run: |
-          python print("hello wolrd")
-          django --version
-          python django.setup()
+          python setup.py
           pytest -v
