@@ -25,5 +25,4 @@ jobs:
       - name: Test with pytest
         run: |
           cd chefoeuvre/
-          python setup.py
           pytest -v
